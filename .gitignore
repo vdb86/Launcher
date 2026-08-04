@@ -1,0 +1,28 @@
+# ---- Build output / generated ----
+build/
+out/
+*.exe
+*.pdb
+*.obj
+*.ilk
+*.exp
+*.lib
+
+# ---- Visual Studio / IDE ----
+.vs/
+*.user
+CMakeSettings.json
+
+# ---- Deploy folder (portable xcopy build: launcher.exe + copied assets + local config) ----
+/Launcher/
+
+# ---- Personal / local config ----
+# launcher.json is per-machine user config, not source.
+launcher.json
+
+# ---- Personal & third-party icon images ----
+# assets/icons is only the default folder the in-app icon browser opens to; users drop their
+# own images here. The shipped repo keeps the empty folder (.gitkeep) but not the images,
+# which are personal setup and/or third-party trademarked logos.
+assets/icons/*
+!assets/icons/.gitkeep

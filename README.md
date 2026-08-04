@@ -1,4 +1,4 @@
-# Launcher (working title)
+# Launcher
 
 Fullscreen Windows 10/11 HTPC application launcher with the look and feel of RetroArch's
 **XMB** interface. Controller / keyboard / remote first - no mouse required.
